@@ -1,0 +1,33 @@
+# .NET Core #
+#######################
+
+# .NET Core project files
+*.dll
+*.exe
+*.pdb
+*.dll.config
+*.exe.config
+
+# .NET Core directories
+bin
+obj
+
+# Visual Studio Code #
+#######################
+
+.vscode
+
+# Rider #
+#######################
+
+.idea
+*.sln.iml
+
+# User-specific files
+#######################
+
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
