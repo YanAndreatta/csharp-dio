@@ -1,7 +1,26 @@
 ﻿using dio_bootcamp.models;
 
 
-int quantidadeEmEstoque = 3;
+Console.WriteLine("Digite uma letra: ");
+string letra = Console.ReadLine();
+
+switch (letra) {
+    case "a": 
+    case "e": 
+    case "i": 
+    case "o": 
+    case "u": 
+        Console.WriteLine("Vogal");
+        break;
+
+    default:
+        Console.WriteLine("Não é uma vogal");
+        break;
+}
+
+
+
+/* int quantidadeEmEstoque = 3;
 int quantidadeCompra = 0;
 bool possivelVenda = quantidadeCompra > 0 && quantidadeEmEstoque >= quantidadeCompra;
 
@@ -17,7 +36,7 @@ if (quantidadeCompra == 0 ) {
 } else {
     Console.WriteLine("Desculpe. Não temos a quantidade desejada em estoque.");
 }
-
+ */
 
 
 
