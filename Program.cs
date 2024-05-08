@@ -2,6 +2,18 @@
 
 
 
+bool choveu = true;
+bool estaTarde = true;
+
+if (!choveu && !estaTarde) {
+    Console.WriteLine("Vou pedalar");
+} else {
+    Console.WriteLine("Vou pedalar um outro dia");
+}
+
+
+
+/* 
 bool possuiPresencaMinima = true;
 double media = 7.5;
 
@@ -10,7 +22,7 @@ if (possuiPresencaMinima && media >= 7) {
 } else {
     Console.WriteLine("Reprovado");
 }
-
+ */
 
 
 
