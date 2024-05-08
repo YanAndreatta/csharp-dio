@@ -1,15 +1,32 @@
 ﻿using dio_bootcamp.models;
 
 
+int quantidadeEmEstoque = 3;
+int quantidadeCompra = 4;
+bool possivelVenda = quantidadeEmEstoque >= quantidadeCompra;
 
-string a = "15-";
+Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
+Console.WriteLine($"Quantidade compra: {quantidadeCompra}");
+Console.WriteLine($"É possível realizar a venda? {possivelVenda}");
 
-// int b = 0;
+if (possivelVenda) {
+    Console.WriteLine("Venda realizada");
+} else {
+    Console.WriteLine("Desculpe. Não temos a quantidade desejada em estoque.");
+}
 
-int.TryParse(a, out int b);
 
-Console.WriteLine(b);
-Console.WriteLine("Conversão realizada com sucesso!");
+
+
+
+// string a = "15-";
+
+// // int b = 0;
+
+// int.TryParse(a, out int b);
+
+// Console.WriteLine(b);
+// Console.WriteLine("Conversão realizada com sucesso!");
 
 
 
