@@ -2,6 +2,21 @@
 
 
 
+bool possuiPresencaMinima = true;
+double media = 7.5;
+
+if (possuiPresencaMinima && media >= 7) {
+    Console.WriteLine("Aprovado");
+} else {
+    Console.WriteLine("Reprovado");
+}
+
+
+
+
+
+
+/* 
 bool ehMaiorDeIdade = true;
 bool possuiAutorizacaoResponsavel = false;
 
@@ -11,7 +26,7 @@ if (ehMaiorDeIdade || possuiAutorizacaoResponsavel) {
     Console.WriteLine("Entrada não liberada!");
 }
 
-
+ */
 
 
 
