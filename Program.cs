@@ -1,7 +1,21 @@
 ﻿using dio_bootcamp.models;
 
 
-Console.WriteLine("Digite uma letra: ");
+
+bool ehMaiorDeIdade = true;
+bool possuiAutorizacaoResponsavel = false;
+
+if (ehMaiorDeIdade || possuiAutorizacaoResponsavel) {
+    Console.WriteLine("Entrada liberada!");
+} else {
+    Console.WriteLine("Entrada não liberada!");
+}
+
+
+
+
+
+/* Console.WriteLine("Digite uma letra: ");
 string letra = Console.ReadLine();
 
 switch (letra) {
@@ -17,7 +31,7 @@ switch (letra) {
         Console.WriteLine("Não é uma vogal");
         break;
 }
-
+ */
 
 
 /* int quantidadeEmEstoque = 3;
