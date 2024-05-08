@@ -1,9 +1,17 @@
 ﻿using dio_bootcamp.models;
 
+// Cast - Casting 
+int a = Convert.ToInt32(null);    // Convert quando receber um valor nulo, ele converterá para 0. 
+//int a = int.Parse("5c");
+ 
+Console.WriteLine(a);
 
-DateTime dataAtual = DateTime.Now.AddDays(5);
+
+
+/* DateTime dataAtual = DateTime.Now.AddDays(5);
 Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH:mm"));
 
+*/
 
 /* Maneira alternativa 
 
