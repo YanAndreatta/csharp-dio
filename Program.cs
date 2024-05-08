@@ -1,10 +1,23 @@
 ﻿using dio_bootcamp.models;
 
 
-int inteiro = 5;
+
+// int a = 5;
+// double b = a;
+
+// long a = long.MaxValue;
+// int b = Convert.ToInt32(a);
+
+int a = int.MaxValue;
+long b = a;
+
+Console.WriteLine(b);
+
+
+/* int inteiro = 5;
 string a = inteiro.ToString();
 Console.WriteLine(a);
-
+ */
 
 /* // Cast - Casting 
 int a = Convert.ToInt32(null);    // Convert quando receber um valor nulo, ele converterá para 0. 
