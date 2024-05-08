@@ -1,9 +1,21 @@
 ﻿using dio_bootcamp.models;
 
 
-double a = 4 / (2 + 2);
 
-Console.WriteLine(a);
+string a = "15-";
+
+// int b = 0;
+
+int.TryParse(a, out int b);
+
+Console.WriteLine(b);
+Console.WriteLine("Conversão realizada com sucesso!");
+
+
+
+// double a = 4 / (2 + 2);
+
+// Console.WriteLine(a);
 
 // int a = 5;
 // double b = a;
