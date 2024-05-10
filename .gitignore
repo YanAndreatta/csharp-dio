@@ -31,3 +31,5 @@ obj
 *.user
 *.userosscache
 *.sln.docstates
+*.bat
+*.sh
