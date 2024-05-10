@@ -5,10 +5,12 @@
 
 Calculadora calc = new Calculadora();
 
-calc.Somar(10, 2);
-calc.Subtrair(10, 50);
-calc.Multiplicar(15, 45);
-calc.Dividir(2, 2);
+calc.Potencia(3, 3);
+
+// calc.Somar(10, 2);
+// calc.Subtrair(10, 50);
+// calc.Multiplicar(15, 45);
+// calc.Dividir(2, 2);
 
 // bool choveu = true;
 // bool estaTarde = true;
