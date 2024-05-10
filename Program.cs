@@ -3,11 +3,30 @@
 
 
 
-Calculadora calc = new Calculadora();
+int numeroIncremento = 10;
 
-calc.Seno(30);
-calc.Cosseno(30);
-calc.Tangente(30);
+
+Console.WriteLine("Incrementando o 10");
+// numero = numero + 1;
+numeroIncremento++;
+Console.WriteLine(numeroIncremento);
+
+
+int numeroDecremento = 20;
+Console.WriteLine("Decrementando o 20");
+numeroDecremento--;
+
+
+Console.WriteLine(numeroDecremento);
+
+
+
+
+// Calculadora calc = new Calculadora();
+
+// calc.Seno(30);
+// calc.Cosseno(30);
+// calc.Tangente(30);
 
 // calc.Potencia(3, 3);
 
