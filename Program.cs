@@ -5,7 +5,11 @@
 
 Calculadora calc = new Calculadora();
 
-calc.Potencia(3, 3);
+calc.Seno(30);
+calc.Cosseno(30);
+calc.Tangente(30);
+
+// calc.Potencia(3, 3);
 
 // calc.Somar(10, 2);
 // calc.Subtrair(10, 50);
