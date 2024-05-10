@@ -1,12 +1,29 @@
 ﻿using dio_bootcamp.models;
 
 
-
 int numero = 5;
+int contador = 1; 
 
- for(int contador = 0; contador <= 10; contador++) {
-    Console.WriteLine($"{contador} x {numero} =  {numero * contador}");
- }
+
+while (contador <= 10) {
+    Console.WriteLine($"{contador} Execução: {numero} x {contador} = {numero * contador}");
+    contador++;
+}
+
+
+
+
+
+
+
+
+
+
+// int numero = 5;
+
+//  for(int contador = 0; contador <= 10; contador++) {
+//     Console.WriteLine($"{contador} x {numero} =  {numero * contador}");
+//  }
 
 
 
