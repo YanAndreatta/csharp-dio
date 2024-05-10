@@ -8,18 +8,22 @@ arrayInteiros[0] = 72;
 arrayInteiros[1] = 64;
 arrayInteiros[2] = 50;
 
+Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
+
+
 Console.WriteLine("Percorrendo o Array com o FOR");
 for (int i = 0; i < arrayInteiros.Length; i++) {
     Console.WriteLine($"Posição n. {i} - {arrayInteiros[i]}");
 }
 
 
-Console.WriteLine("Percorrendo o Array com o FOREACH");
-int contadorForeach = 0;
-foreach (int valor in arrayInteiros) {
-    Console.WriteLine($"Posição n. {contadorForeach} - {valor}");
-    contadorForeach++;
-}
+
+// Console.WriteLine("Percorrendo o Array com o FOREACH");
+// int contadorForeach = 0;
+// foreach (int valor in arrayInteiros) {
+//     Console.WriteLine($"Posição n. {contadorForeach} - {valor}");
+//     contadorForeach++;
+// }
 
 
 
