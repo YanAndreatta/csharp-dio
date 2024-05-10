@@ -44,5 +44,10 @@ namespace dio_bootcamp.models
             double tangente = Math.Tan(radiano); 
             Console.WriteLine($"A tangente de {angulo} é {Math.Round(tangente, 4)}");
         }
+
+        public void RaizQuadrada(double numero) {
+            double raiz = Math.Sqrt(numero);
+            Console.WriteLine($"A raiz quadrada de {numero} é {Math.Round(raiz, 4)}");
+        }
     }
 }

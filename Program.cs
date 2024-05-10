@@ -2,27 +2,31 @@
 
 
 
+Calculadora calc = new Calculadora(); 
 
-int numeroIncremento = 10;
-
-
-Console.WriteLine("Incrementando o 10");
-// numero = numero + 1;
-numeroIncremento++;
-Console.WriteLine(numeroIncremento);
-
-
-int numeroDecremento = 20;
-Console.WriteLine("Decrementando o 20");
-numeroDecremento--;
-
-
-Console.WriteLine(numeroDecremento);
+calc.RaizQuadrada(9);
 
 
 
+// int numeroIncremento = 10;
 
-// Calculadora calc = new Calculadora();
+
+// Console.WriteLine("Incrementando o 10");
+// // numero = numero + 1;
+// numeroIncremento++;
+// Console.WriteLine(numeroIncremento);
+
+
+// int numeroDecremento = 20;
+// Console.WriteLine("Decrementando o 20");
+// numeroDecremento--;
+
+
+// Console.WriteLine(numeroDecremento);
+
+
+
+
 
 // calc.Seno(30);
 // calc.Cosseno(30);
