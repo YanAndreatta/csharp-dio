@@ -2,9 +2,17 @@
 
 
 
-Calculadora calc = new Calculadora(); 
+int numero = 5;
 
-calc.RaizQuadrada(9);
+ for(int contador = 0; contador <= 10; contador++) {
+    Console.WriteLine($"{contador} x {numero} =  {numero * contador}");
+ }
+
+
+
+// Calculadora calc = new Calculadora(); 
+
+// calc.RaizQuadrada(9);
 
 
 
